@@ -1,0 +1,50 @@
+/* * {
+    
+} */
+
+.dropdown {
+    color: green;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: green !important;
+    color: white;
+    padding: 16px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.heading {
+    font-size: 24px;
+}
+
+.menu {
+    font-size: 2em;
+}

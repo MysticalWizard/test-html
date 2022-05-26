@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url("https://handletheheat.com/wp-content/uploads/2016/02/best-chocolate-cupcakes-recipe-SQUARE.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .potatoimage {
+            display: block;
+            margin-top: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">
+            Dropdown Menu
+        </button>
+        <div class="dropdown-content">
+            <a href="">Home</a>
+            <a href="">Page 2</a>
+        </div>
+    </div>
+    <h1 class="heading">Heading</h1>
+    <hr>
+    <p>Paragraph</p>
+    <a href="https://google.com/">
+        clickme
+    </a><br>
+    <img src="/assets/potato.jpg" alt="image of a potato" class="potatoimage" style="width:200px">
+    <img src="/assets/cupcake.jpg" alt="temporary text" style="width:500px">
+
+    <button>
+        <img src="/assets/potato.jpg" alt="image of a potato" class="potatoimage" style="width:200px">
+    </button>
+
+    
+</body>
+</html>
